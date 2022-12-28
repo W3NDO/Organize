@@ -1,20 +1,20 @@
 #!/bin/bash
 
 # Go to the downloads folder
-# cd Downloads 
+cd ~/Downloads
 
 echo "Organizing your messy downloads folder"
 
-# First Create Some General Folders 
+# First Create Some General Folders
 mkdir Audio_Files Video_Files PDFs Word_Docs Powerpoints Scripts Image_Files Spreadsheets Notebooks Debian_Files TXZ_Files Compressed_Files
 
-# Audio Files 
+# Audio Files
 mv *.mp3 *.m4a *.flac *.aac *.ogg *.wav Audio_Files
 
-# Video Files 
+# Video Files
 mv *.mp4 *.mov *.avi *.mpg *.mpeg *.webm *.mpv *.mp2 *.wmv Video_Files
 
-# PDFs 
+# PDFs
 mv *.pdf PDFs
 
 # Word Docs and txt files
@@ -32,7 +32,7 @@ mv *.png *.jpg *.jpeg *.tif *.tiff *.bpm *.gif *.eps *.raw Image_Files
 # Notebooks
 mv *.ipynb Notebooks
 
-#Debian File 
+#Debian File
 mv *.deb Debian_Files
 
 #TXZ_Files
